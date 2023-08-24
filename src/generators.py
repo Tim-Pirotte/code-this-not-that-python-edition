@@ -1,6 +1,6 @@
 from sys import getsizeof 
 
-# Inefficent way 💩: Using a list ❌
+# Inefficient way 💩: Using a list ❌
 L = [n for n in range(42_000)]
 sum(L) # 881979000
 getsizeof(L) # 351064 bytes
